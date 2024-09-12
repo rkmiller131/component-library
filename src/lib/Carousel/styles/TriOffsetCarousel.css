@@ -1,0 +1,19 @@
+.carousel-card-wrapper {
+  display: flex;
+}
+
+.carousel-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  transition: opacity 1s linear;
+  cursor: pointer;
+}
+
+.card-content {
+  height: 350px; /* height is fixed and tied to gsap translations. If you adjust height, need to adjust animation*/
+  background-color: dodgerblue;
+  border-radius: 1.5rem 1.5rem;
+  box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
+}
